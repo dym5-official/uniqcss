@@ -1,0 +1,27 @@
+{
+    "name": "uniqcss",
+    "description": "An esbuild plugin for .uniq.css.",
+    "version": "1.0.0",
+    "author": "DYM5 Official",
+    "license": "MIT",
+    "main": "./index.cjs",
+    "module": "./index.js",
+    "types": "./index.d.ts",
+    "type": "module",
+    "exports": {
+        ".": {
+            "import": "./index.js",
+            "require": "./index.cjs",
+            "default": "./index.js"
+        }
+    },
+    "repository": "https://github.com/dym5-official/uniqcss.git",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "esbuild",
+        "unique css",
+        "uniqcss"
+    ]
+}
